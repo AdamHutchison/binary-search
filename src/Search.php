@@ -1,8 +1,8 @@
 <?php
 
-require('BinarySearch.php');
+require __DIR__ . '/../vendor/autoload.php';
 
-use Algorithms\BinarySearch;
+use Search\BinarySearch;
 
 $list = [
     1,

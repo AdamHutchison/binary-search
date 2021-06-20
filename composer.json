@@ -1,0 +1,19 @@
+{
+    "name": "adam/binary-search",
+    "description": "Binary search example written in php",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Search\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adam Hutchison",
+            "email": "adamcraighutchison@gmail.com"
+        }
+    ],
+    "require": {}
+}

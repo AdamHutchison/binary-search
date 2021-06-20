@@ -1,6 +1,6 @@
 <?php
 
-namespace Algorithms;
+namespace Search;
 
 class BinarySearch
 {
@@ -23,7 +23,7 @@ class BinarySearch
 
         // We've searched all items except the upper and lower bounds
         if ($mid == $upperBound) {
-            $this->checkBoundaryKeys($searchTerm, $lowerBound, $upperBound);
+            return $this->checkBoundaryKeys($searchTerm, $lowerBound, $upperBound);
         }
 
         // Check if we've found the search term
