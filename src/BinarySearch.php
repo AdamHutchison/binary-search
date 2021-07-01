@@ -4,6 +4,8 @@ namespace Search;
 
 class BinarySearch
 {
+    private array $list;
+    
     /**
      * @param array[int] $sortedList
      */
